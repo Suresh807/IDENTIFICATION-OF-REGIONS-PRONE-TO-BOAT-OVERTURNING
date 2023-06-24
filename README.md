@@ -1,6 +1,9 @@
 # IDENTIFICATION-OF-REGIONS-PRONE-TO-BOAT-OVERTURNING
 
 Open the Map File and open the new terminal run the npm start and npm install in which it will be connected to the server which displays the location in the map.
+Download the React File through the Google Drive:
+https://drive.google.com/file/d/1jhZILDsyWEX7w1oX1eno856IyhuRoK5G/view?usp=drive_link
+
 
 
 Identifying regions prone to boat overturning involves considering various factors such as geographical features, weather patterns, and specific conditions that increase the risk of boats capsizing or overturning. While it's not possible to provide an exhaustive list of regions prone to boat overturning without detailed analysis, here are some factors to consider when assessing the risk:
