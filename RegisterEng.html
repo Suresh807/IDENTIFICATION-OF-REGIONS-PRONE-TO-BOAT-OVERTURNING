@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+<title>Register Form Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="js.js"></script>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="http://localhost:3000/">Dashboard</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link " href="#!">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="box">
+    <img src="logo.jpg" class="user">
+
+        <h1>Register Here</h1>
+
+        <form name="myform2" onsubmit="return vfun1()">
+
+            <p>Username</p>
+            <input type="text" name="uname1" placeholder="Enter the Username">
+
+            <p>Email Id</p>
+            <input type="email" name="email1" placeholder="Enter the Email Id">
+
+            <p>BoatNo</p>
+            <input type="tel" name="boat1" placeholder="Enter the BoatNo">
+            <p>Emergency Number1</p>
+            <input  type="tel" name="emergency1" placeholder="Enter the Emergency Number1">
+            <p>Emergency Number2</p>
+            <input type="tel" name="emergency2" placeholder="Enter the Emergency Number2">
+            <p>Passsword</p>
+            <input type="password" name="upswd1" placeholder="Enter the Password">
+             <div id="errorBox"></div>
+            <input type="submit" name="" value="Register">
+
+            <br><br>
+            <a href="file:///C:/Users/NarenMc/Desktop/login/index.html">Existing User Login </a>
+        </form>
+        
+    </div>
+
+</body>
+</head>
+</html>

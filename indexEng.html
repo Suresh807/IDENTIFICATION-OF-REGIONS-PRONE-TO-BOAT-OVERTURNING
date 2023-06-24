@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+<title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="http://localhost:3000/">Dashboard</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="dropdown_lang">
+                    <button class="dropbtn">Langugae</button>
+                    <div class="dropdown-content">
+                      <a href="http://127.0.0.1:5500/MALAYALAM/indexMal.HTML">Malayalam</a>
+                      <a href="http://127.0.0.1:5500/TAMIL/REGISTERTAMIL.html">Tamil</a>
+                      <a href="http://127.0.0.1:5500/TELUGU/indexTel.html">Telugu</a>
+                      <a href="http://127.0.0.1:5500/HINDI/hindilogin.html">Hindi</a>
+                    </div>
+                  </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link "href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+
+    <div class="box">
+    <img src="logo.jpg" class="user">
+        <h1>Login Here</h1>
+
+        <form name="myform" action="http://localhost:3000/" >
+
+            <p>Username</p>
+            <input type="text" name="uname" placeholder="Enter the Username">
+
+            <p>Password</p>
+            <input type="password" name="upswd" placeholder="Enter the Password">
+
+             <div id="errorBox"></div>
+            <input type="submit" name="" value="Login">
+
+            <br><br>
+            <a href="http://127.0.0.1:5500/ENGLISH/RegisterEng.html">Register For the New Account</a>
+
+        </form>
+        
+    </div>
+
+    
+
+</body>
+
+</html>

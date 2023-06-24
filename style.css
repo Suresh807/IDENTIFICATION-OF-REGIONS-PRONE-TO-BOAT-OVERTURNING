@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(https://images.unsplash.com/photo-1468657988500-aca2be09f4c6?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxhbGx8fHx8fHx8fHwxNjE5NzYxNTgy&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600) ;
+  background-size: cover;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.box{
+
+
+  background:rgb(216, 214, 214);
+  color: red;
+  top: 50%;
+  left: 70%;
+  position: absolute;
+  transform: translate(-160%,-50%);
+  box-sizing: border-box;
+  padding: 100px 80px;
+  border: 2px ;
+  border-radius: 12px;
+}
+
+
+
+.user{
+  width: 100px;
+  height: 100px;
+  position:absolute;
+  top: 0px;
+  left: calc(50% - 50px);
+  border-radius: 50%;
+}
+
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+
+p{
+  color: #0a0a0a;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+input{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] ,input[type="email"]
+{
+  border: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #2196f3;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+
+}
+
+
+input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #0097a7;
+}
+
+a
+{
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #069818;
+}
+
+
+a:hover
+{
+  color: red;
+}
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
